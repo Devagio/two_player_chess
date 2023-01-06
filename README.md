@@ -12,3 +12,5 @@ Visit https://devagio.itch.io/two-player-chess (or click on the website link).
 - Install python.
 - Pip install pygame
 - Run main.py
+
+![Screenshot](Screenshot.png?raw=true)
