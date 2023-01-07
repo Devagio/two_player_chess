@@ -128,9 +128,11 @@ async def main():
                     move_num = move_num + 1 if turn == 'w' else move_num
                     current_move = ""
 
+                await asyncio.sleep(0)
                 continue
 
             else:
+                await asyncio.sleep(0)
                 continue
 
         all_possible_moves = []
@@ -202,6 +204,7 @@ async def main():
                     board.pieces.game_so_far.append(current_move)
                     move_num = move_num + 1 if turn == 'w' else move_num
                     current_move = ""
+                await asyncio.sleep(0)
                 continue
 
             board_array[current_rank_num - 1][current_file_num - 1].remove_current()
